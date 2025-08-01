@@ -1,0 +1,36 @@
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid gray;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+#box1 {
+    margin: 60px auto; 
+    border-color: transparent;
+    background-color: #e6ffe6;
+}
+
+
+#box2 {
+    border: 5px dashed #008080;
+    background-color: #e0ffff;
+    border-radius: 10px;
+}
+
+
+#box3 {
+    padding: 50px;
+    background-color: #fff0f5;
+    border-color: #cc3366;
+}
