@@ -1,0 +1,52 @@
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+
+.save {
+    background-color: #28a745;
+}
+
+
+.cancel {
+    background-color: #dc3545;
+}
+
+
+.submit {
+    background-color: #007bff;
+}
+
+
+.btn:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
+}
+
+
+.btn:active {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3) inset;
+}
